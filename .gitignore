@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+*firebase-adminsdk*.json
+
+# Generated/local runtime files
+generated_answer_keys/
+study_schedule.ics
+*.log
+
+# Frontend build and env
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.*
+!frontend/.env.local.example
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

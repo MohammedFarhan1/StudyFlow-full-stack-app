@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pypdf
+python-multipart
+pydantic
+python-dateutil
+icalendar
+pytz
+groq
+python-dotenv
+firebase-admin
+reportlab
+
